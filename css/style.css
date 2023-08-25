@@ -1,0 +1,727 @@
+/* ___________________________________________
+
+    #Google-fonts
+    __________________________________________*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black;
+      */
+}
+
+/* __________________________________________
+
+    #Left-Index
+    _________________________________________ */
+
+     #left-index{
+        position: fixed;
+        height: 100vh;
+        width: 22vw;
+        border: 1px solid black;
+        background: rgb(178,181,67);
+        background: linear-gradient(90deg, rgba(178,181,67,1) 0%, rgba(2,8,32,1) 0%);
+         
+     }
+
+     /* Profile-img */
+
+     #profile-img{
+        margin-top: 20px;
+        height: 130px;
+        width: 130px;
+        border-radius: 75px;
+        border: 7px solid rgb(49, 47, 47);
+     }
+
+     /* Profile Name Style */
+
+     #profile-name-text{
+        font-family: 'Raleway', sans-serif;
+        color:rgb(196, 208, 219);
+        font-size: 25px;
+        margin-top: 15px;
+         
+
+     }
+
+     /* Social-Icons */
+
+     #social-icons{
+        margin-top: 10px;
+     }
+
+     .social-icon-img{
+        border: 2px solid rgb(235, 229, 229);
+        margin-top: 15px;
+        height: 32px;
+        width: 32px;
+        color: rgb(241, 235, 235);
+        border-radius: 25px;
+        background-color: white;
+        margin-left: 5px;
+         
+        
+     }
+
+     /* Left Index Content */
+
+     #nav-list{
+        background: rgb(178,181,67);
+        background: linear-gradient(90deg, rgba(178,181,67,1) 0%, rgba(2,8,32,1) 0%);
+         
+     }
+
+
+     .index-text{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(197, 203, 209);
+        font-size: 16px;
+        font-weight:bold;
+         s 
+         
+     }
+
+      
+
+     .content-margin{
+        margin-top: 35px;
+     }
+
+     .index-icon{
+       
+      height: 25px;
+      width: 25px;
+      /* padding-top: 5px; */
+      margin-top: 30px;
+      margin-left: 75px;
+      border-radius: 15px;
+      /* padding-top: 30px; */
+      
+  }
+  
+  .index-text{
+      text-decoration: none;
+      color: rgb(228, 218, 218);
+      font-size: 16px;
+      margin-left: 5px;
+       
+      
+  }
+
+  #index-content{
+   height: 50px;
+   width: 50px;
+   margin-top: 30px;
+  }
+
+  #index-table{
+   margin-left: 15px;
+   margin-top: 30px;
+  }
+
+  .index-text-space{
+   margin-top: 2px;
+   font-size: 16px;
+   margin-left: 5px;
+  }
+
+
+  /* _________________________________________________________________
+  
+   #Home Page
+   ___________________________________________________________________*/
+
+   #home-page{
+      background: rgb(178,181,67);
+      background: rgb(178,181,67);
+      background: linear-gradient(90deg, rgba(178,181,67,1) 0%, rgba(1,1,19,1) 0%, rgba(5,8,25,1) 22%, rgba(2,7,29,1) 45%, rgba(2,7,25,1) 66%, rgba(8,17,51,1) 87%);
+      height: 100vh;
+      width: 78vw;
+      float: right;
+      border: 1px solid black;
+
+       
+       
+
+   }
+
+   /* #home-page-logo{
+      height: 50vh;
+      width: 50vh;
+      background-color: aqua;
+      background: black;
+   } */
+   
+
+    #homepage-content-area{
+      /* border: 1px solid white; */
+      width: 100vh;
+      height: 30vw;
+      float: right;
+      margin-top: 25vh;
+
+    }
+
+    #homepage-content1{
+      font-family: 'Oxygen', sans-serif;
+      color:rgb(110, 158, 202);
+      font-size: 1.5rem;
+      float: right;
+      margin-top: 1rem;
+    }
+
+    #homepage-content2{
+      font-family: 'Raleway', sans-serif;
+      color: rgb(219, 227, 230);
+      font-size: 4rem;
+      float: right;
+      margin-top: 1rem;
+    }
+
+    #homepage-content3{
+      font-family: 'Oxygen', sans-serif;
+      font-size: 1.5rem;
+      color:rgb(110, 158, 202);
+      float: right;
+      margin-top: 1rem;
+    }
+
+    #homepage-content4{
+      font-family: 'Raleway', sans-serif;
+      color: rgb(245, 145, 217);
+      font-size: 2.5rem;
+      float: right;
+      margin-top: 1rem;
+    }
+
+    #web-underline{
+      background-color: rgb(245, 145, 217);
+      height: 0.7vh;
+      width: 44vw;
+      margin-top: 31vh;
+    }
+
+
+    /* _____________________________________________________________
+    
+      #About Page
+      ______________________________________________________________*/
+
+      #about-page{
+         background-color:aliceblue;
+         /* background: rgb(178,181,67);
+         background: rgb(178,181,67);
+         background: linear-gradient(90deg, rgba(178,181,67,1) 0%, rgba(1,1,19,1) 0%, rgba(5,8,25,1) 22%, rgba(2,7,29,1) 45%, rgba(2,7,25,1) 66%, rgba(8,17,51,1) 87%); */
+         height: 170vh;
+         width: 77vw;
+         float: right;
+         /* border: 1px solid rgb(1, 13, 19); */
+
+      }
+
+      /* Page Heading */
+
+      .page-heading{
+         font-family: 'Raleway', sans-serif;
+         color:rgb(24, 60, 114);
+         font-size: 2.2rem;
+         font-weight: 100;
+         margin-left: 2.5vw;
+         margin-top: 5vh;
+      }
+
+      .heading-underline{
+         background-color: rgb(61, 182, 182);
+         height: 0.6vh;
+         width: 5vw;
+         margin-left: 2.5vw;
+         margin-top: 2.5vh;
+      }
+
+      #bio-about{
+         font-family: 'Work Sans', sans-serif;
+         color: black;
+         font-size: large;
+         font-weight:bolder;
+         margin-left: 2.5vw;
+         margin-top: 3vh;
+         line-height: 4vh;
+         
+      } 
+      
+
+      /* About page main flex div */
+       
+      #about-main-area{
+         /* border: 1px solid black; */
+         height: 60vh;
+         width: 77vw;
+         margin-top: 5vh;
+         display: flex;
+          
+      }
+
+      #about-profile-pic{
+         /* border: 1px solid black; */
+         margin-top: 0vh;
+         height: 45vh;
+         width: 27vw;
+         margin-left: 1.5vw;
+      }
+
+      #about-selfinfo{
+         /* border: 1px solid black; */
+         margin-top: 0vh;
+         height: 45vh;
+         width: 50vw;
+      }
+
+      .about-profile-pic-setup{
+         height: 40vh;
+         width: 25vw;
+         margin-left: 1vw;
+      }
+
+      #about-selfinfo-heading{
+         font-family: 'Raleway', sans-serif;
+         color:rgb(24, 60, 114);
+         font-size: 2rem;
+         margin-left: 1vw;
+
+      }
+
+      #selfinfo-content{
+         /* border: 1px solid black; */
+         height: 35vh;
+         width: 50vw;
+         display: flex;
+         margin-top: 4vh;
+      }
+
+      .selfinfo-content-left{
+         /* border: 1px solid black; */
+         font-family: 'Oxygen', sans-serif;
+         font-size: 1.1rem;
+         padding-left: 3.5vw;
+         padding-top: 4vh;
+         height: 35vh;
+         width: 25vw;
+      }
+
+      .selfinfo-content-right{
+         /* border: 1px solid black; */
+         font-family: 'Oxygen', sans-serif;
+         font-size: 1.1rem;
+         padding-left: 0vw;
+         padding-top: 4vh;
+         height: 35vh;
+         width: 25vw;
+      }
+
+      
+
+
+      /* Skills */
+
+       
+
+      .heading-underline{
+         background-color: rgb(61, 182, 182);
+         height: 0.6vh;
+         width: 5vw;
+         margin-left: 2.5vw;
+         margin-top: 2.5vh;
+      }
+      
+      /* Slidebar Subject Name */
+
+      .slidebar-title{
+         font-family: 'Oxygen', sans-serif;
+         /* font-size: 10px;
+         font-weight: bolder; */
+         
+      }
+
+      #skills-main-div-area{
+         /* border: 1px solid black; */
+         height: 60vh;
+         width: 77vw;
+         margin-top: 5vh;
+          
+      }
+
+      /* Skills main flex div */
+
+      .skills-main-div-area-flex{
+         display: flex;
+      }
+
+      /* Skills first/second/third flex div */
+
+      .skills-row-first{
+         /* border: 1px solid black; */
+         margin-top: 7vh;
+         margin-left: 2.5vw;
+         height: 5vh;
+         width: 68vw;
+         display: flex;
+
+      }
+
+       
+
+      .skills-row-first-left{
+         /* border: 1px solid black; */
+         height: 5vh;
+         width: 32vw;
+
+      }
+
+       
+
+      .skills-row-first-right{
+         /* border: 1px solid black; */
+         height: 5vh;
+         width: 32vw;
+         margin-left: 5vw;
+
+      }
+
+      .skills-row-second-right{
+         /* border: 1px solid black; */
+         height: 5vh;
+         width: 31vw;
+         margin-left: 5vw;
+
+      }
+
+      .skills-slidebar{
+         /* border: 1px solid black; */
+         height: 2vh;
+         width: 100%;
+         margin-top: 1vh;
+         display: flex;
+      }
+
+      /* HTML Slidebbar */
+
+      #skills-rowfirst-slidebarfirst-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 80%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowfirst-slidebarfirst-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 20%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+      /* SQL Slidebar */
+
+      #skills-rowfirst-slidebarsecond-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 80%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowfirst-slidebarsecondt-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 20%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+      /* CSS Slidebar */
+
+      #skills-rowsecond-slidebarfirst-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 80%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowsecond-slidebarfirst-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 20%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+      /* MYSQL Slidebar */
+
+      #skills-rowsecond-slidebarsecond-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 70%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowsecond-slidebarsecondt-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 30%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+      /* JAVASCRIPT Slidebar */
+
+      #skills-rowthird-slidebarfirst-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 70%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowthird-slidebarfirst-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 30%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+      /* GIT Slidebar */
+
+      #skills-rowthird-slidebarsecond-alignleft{
+         /* border: 1px solid black; */
+         background-color:rgb(16, 65, 223);
+         height: 1.5vh;
+         width: 70%;
+         margin-top: 0vh;
+          
+      }
+
+      #skills-rowthird-slidebarsecondt-alignright{
+         /* border: 1px solid black; */
+         background-color: rgb(204, 211, 218);
+         height: 1.5vh;
+         width: 30%;
+         margin-top: 0vh;
+
+         
+          
+      }
+
+       
+      /* _________________________________________________________________________
+      
+         #Resume
+         ________________________________________________________________________*/
+
+         #resume-page{
+            background-color:aliceblue;
+            height: 145vh;
+            width: 77vw;
+            float: right;
+            /* border: 1px solid rgb(1, 13, 19); */
+         }
+
+         #resume-page-flex-div{
+            display: flex;
+         }
+
+         #resume-page-first-div{
+            height: 100vh;
+            width: 37vw;
+            float: right;
+            margin-top: 20vh;
+            /* border: 1px solid hwb(0 9% 91%); */
+         }
+
+         #resume-page-second-div{
+            height: 95vh;
+            width: 38.5vw;
+            float: right;
+            margin-top: 20vh;
+            margin-left: 1vw;
+            /* border: 1px solid rgb(11, 5, 31); */
+         }
+
+         .resume-page-first-div-heading{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 1.8rem;
+            /* font-size: larger; */
+            margin-left: 2.5vw;
+
+         }
+
+         #resume-page-second-div{
+            border-left: 2px solid black;
+            
+         }
+
+         #resume-page-second-div-heading{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 1.8rem;
+            /* font-size: larger; */
+            margin-left: 0vw;
+            margin-left: 2.5vw;
+
+         }
+
+         .heading-suhas{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 1.5rem;
+            margin-left: 3vw;
+         }
+
+         #resume-bio{
+            font-family: 'Oxygen', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 1.02rem;
+            font-weight:bolder;
+            margin-left: 4vw;
+            margin-top: 3vh;
+            line-height: 4vh;
+
+         }
+
+         #resume-ul-left{
+            font-family: 'Oxygen', sans-serif;
+            color: rgb(22, 22, 22);
+            margin-left: 6vw;
+            font-size: 1.1rem;
+
+         }
+
+         #resume-button{
+            font-family: 'Oxygen', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 0.9rem;
+            font-weight: bold;
+            border-style: none;
+            height: 2.2vw;
+            width: 7vw;
+            margin-left: 4vw;
+            margin-top: 2vh;
+            /* border: 1px solid black; */
+            background-color: rgb(213, 217, 221);
+           
+         }
+
+         #resume-university{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size: 1.2rem;
+            margin-left: 3vw;
+            margin-top: 2vh;
+         }
+
+         #resume-cgpa{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(22, 22, 22);
+            font-size:medium;
+            margin-left: 4vw;
+            margin-top: 2vh;
+
+         }
+
+         /* __________________________________________________________
+         
+            #Portfolio Page
+            ___________________________________________________________*/
+
+            #portfolio-page{
+               background-color:aliceblue;
+               height: 135vh;
+               width: 77vw;
+               float: right;
+               /* border: 1px solid rgb(1, 13, 19); */
+            }
+
+            .portfoli-project-heading{
+               font-family: 'Raleway', sans-serif;
+               color: rgb(22, 22, 22);
+               font-size: 1.3rem;
+               margin-left: 3vw;
+
+            }
+
+            .spotify-descri{
+               font-family: 'Oxygen', sans-serif;
+               color: rgb(22, 22, 22);
+               margin-left: 6vw;
+               font-size: 16px;
+               font-weight: normal;
+            }
+
+            #spotify-project{
+               height: 20vh;
+               width: 20vw;
+               margin-left: 3vw;
+
+            }
+
+            .spotify-link{
+               height: 20vh;
+               color: rgb(70, 70, 190);
+               width: 20vw;
+               margin-left: 6vw;
+               margin-top: 2vh;
+            }
+                
+   
+
+
+
+       
+
+       
+
+       
+
+
+
+
+       
