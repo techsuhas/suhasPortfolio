@@ -19,9 +19,13 @@
     box-sizing: border-box;
     height: auto;
     width: 100%;
-    /* border: 1px solid black;
-      */
+    /* border: 1px solid black; */
+     
 }
+
+/* #container{
+   border: 1px solid black;
+} */
 
 /* __________________________________________
 
@@ -92,7 +96,7 @@
         color: rgb(197, 203, 209);
         font-size: 16px;
         font-weight:bold;
-         s 
+          
          
      }
 
@@ -231,6 +235,7 @@
          width: 77vw;
          float: right;
          /* border: 1px solid rgb(1, 13, 19); */
+         
 
       }
 
@@ -243,6 +248,7 @@
          font-weight: 100;
          margin-left: 2.5vw;
          margin-top: 5vh;
+         width : 74.4vw;
       }
 
       .heading-underline{
@@ -261,6 +267,7 @@
          margin-left: 2.5vw;
          margin-top: 3vh;
          line-height: 4vh;
+         width : 74.4vw;
          
       } 
       
@@ -273,6 +280,7 @@
          width: 77vw;
          margin-top: 5vh;
          display: flex;
+         width : 74.4vw;
           
       }
 
@@ -288,7 +296,7 @@
          /* border: 1px solid black; */
          margin-top: 0vh;
          height: 45vh;
-         width: 50vw;
+         width: 45vw;
       }
 
       .about-profile-pic-setup{
@@ -308,7 +316,7 @@
       #selfinfo-content{
          /* border: 1px solid black; */
          height: 35vh;
-         width: 50vw;
+         width: 45vw;
          display: flex;
          margin-top: 4vh;
       }
@@ -358,17 +366,31 @@
       }
 
       #skills-main-div-area{
-         /* border: 1px solid black; */
+          
          height: 60vh;
          width: 77vw;
          margin-top: 5vh;
+         /* border : 1px solid black; */
           
+      }
+
+      #skills-main-bgwhite{
+         height: 45vh;
+         width: 73vw;
+         margin-top: 5vh;
+         margin-left: 2.5vw;
+         
+         background-color: white;
+         /* border: 1px solid black; */
+
       }
 
       /* Skills main flex div */
 
       .skills-main-div-area-flex{
          display: flex;
+         /* border: 1px solid black; */
+         
       }
 
       /* Skills first/second/third flex div */
@@ -561,11 +583,13 @@
             height: 145vh;
             width: 77vw;
             float: right;
-            /* border: 1px solid rgb(1, 13, 19); */
+            /* border: 1px solid black; */
          }
 
          #resume-page-flex-div{
             display: flex;
+            width : 74.4vw;
+            
          }
 
          #resume-page-first-div{
@@ -582,7 +606,9 @@
             float: right;
             margin-top: 20vh;
             margin-left: 1vw;
-            /* border: 1px solid rgb(11, 5, 31); */
+            border-left: 2px solid black;
+            /* border: 1px solid black; */
+            
          }
 
          .resume-page-first-div-heading{
@@ -591,13 +617,11 @@
             font-size: 1.8rem;
             /* font-size: larger; */
             margin-left: 2.5vw;
+            width : 25vw;
 
          }
 
-         #resume-page-second-div{
-            border-left: 2px solid black;
-            
-         }
+          
 
          #resume-page-second-div-heading{
             font-family: 'Raleway', sans-serif;
@@ -606,6 +630,7 @@
             /* font-size: larger; */
             margin-left: 0vw;
             margin-left: 2.5vw;
+            width : 25vw;
 
          }
 
@@ -614,6 +639,7 @@
             color: rgb(22, 22, 22);
             font-size: 1.5rem;
             margin-left: 3vw;
+            width : 25vw;
          }
 
          #resume-bio{
@@ -624,6 +650,7 @@
             margin-left: 4vw;
             margin-top: 3vh;
             line-height: 4vh;
+            width : 28vw;
 
          }
 
@@ -632,6 +659,7 @@
             color: rgb(22, 22, 22);
             margin-left: 6vw;
             font-size: 1.1rem;
+            width : 28vw;
 
          }
 
@@ -656,6 +684,7 @@
             font-size: 1.2rem;
             margin-left: 3vw;
             margin-top: 2vh;
+            width : 28vw;
          }
 
          #resume-cgpa{
@@ -664,6 +693,7 @@
             font-size:medium;
             margin-left: 4vw;
             margin-top: 2vh;
+            width : 25vw;
 
          }
 
@@ -677,51 +707,215 @@
                height: 135vh;
                width: 77vw;
                float: right;
-               /* border: 1px solid rgb(1, 13, 19); */
+               /* border: 1px solid black; */
             }
 
-            .portfoli-project-heading{
-               font-family: 'Raleway', sans-serif;
-               color: rgb(22, 22, 22);
-               font-size: 1.3rem;
-               margin-left: 3vw;
-
-            }
-
-            .spotify-descri{
-               font-family: 'Oxygen', sans-serif;
-               color: rgb(22, 22, 22);
-               margin-left: 6vw;
-               font-size: 16px;
-               font-weight: normal;
-            }
-
-            #spotify-project{
-               height: 20vh;
-               width: 20vw;
-               margin-left: 3vw;
-
-            }
-
-            .spotify-link{
-               height: 20vh;
-               color: rgb(70, 70, 190);
-               width: 20vw;
-               margin-left: 6vw;
-               margin-top: 2vh;
-            }
+            #project-div{
+               height: 110vh;
+               width: 76.9vw;
+               display: flex;
+               /* border: 1px solid black; */
                 
-   
+            }
 
+            .project-flex{
+               height: 50vh;
+               width: 23vw;
+               margin-left:2vw;
+               display: flex;
+               background-color: white;
+               border: 1px solid blac  k;
+            }
 
+            .project-frame{
+               height: 50vh;
+               width: 20vw;
+               margin-left: 1.5vw;
+               /* border: 1px solid black; */
+            }
 
-       
+            .project-img-frame{
+               margin-top: 1vh;
+               height: 30vh;
+               width: 20vw;
+               /* border: 1px solid black; */
+                
+               /* margin-top: 5vh; */
+            }
 
-       
+            .project-info{
+               display: flex;
+               height: 4vh;
+               
+               /* border: 1px solid black; */
+                
+               /* margin-top: 2.5vh; */
+               padding-left: 2vw;
+               
+            }
 
-       
+            .project-info-font{
+               font-family: 'Raleway', sans-serif;
+               color: rgb(48, 83, 238);
+               /* text-decoration : none; */
+               font-size: 0.9rem;
+               padding-top: 0.4vh;
+               
+               /* border:1px solid black; */
+            }
 
+             
 
+            .project-heading-font{
+               font-family: 'Poppins', sans-serif;
+               font-size: 1.3rem; 
+               color: black;
+               padding-top: 1vh;
+               /* align-items: left; */
+               width:13vw;
+               
+               /* border: 1px solid black; */
+               
+            }
 
+            /* Spotify More Details */
 
-       
+            .container-moredetails{
+               background-color:aliceblue;
+               height: 130vh;
+               width: 78vw;
+               float: right;
+               border: 1px solid black;
+            
+            
+            }
+
+            .project-heading-flex{
+               
+               display: flex;
+               background-color:aliceblue;
+               height: 15vh;
+               /* border: 1px solid black; */
+            }
+
+            .project-heading{
+               font-family: 'Poppins', sans-serif;
+               color:rgb(54, 54, 54);
+               font-size: 1.5rem;
+               font-weight: 100;
+               width: 20vw;
+               margin-left: 3vw;
+               margin-top: 5vh;
+               /* border: 1px solid black; */
+               
+            }
+
+            .home-link{
+               font-family: 'Poppins', sans-serif;
+               color:rgb(54, 54, 54);
+               float: right;
+               font-size: 1rem;
+               font-weight: bold;
+               width: 74.9vw;
+               margin-left: 3vw;
+               margin-top: 5vh;
+               padding-top: 1.7vh;
+               /* border: 1px solid black; */
+            }
+
+            .home-link-text{
+               text-decoration: none;
+               color: blue;
+               font-weight: 900;
+            }
+
+            .img-div-flex{
+               display: flex;
+               height: 54vh;
+               width: 77.9vw;
+               /* border: 1px solid black; */
+            }
+
+            .img-div{
+               height: 54vh;
+               width: 45vw;
+               /* border: 1px solid black; */
+               margin-left: 3vw;
+               margin-top: 5vh;
+               padding-top: 5vh;
+            }
+
+            .project-information{
+               height: 42.5vh;
+               width: 26vw;
+               background-color: white;
+               margin-left: 1.5vw;
+               margin-top: 5vh;
+               /* border: 1px solid black; */
+            }
+
+            .project-information-heading{
+               font-family: 'Raleway', sans-serif;
+               color:rgb(54, 54, 54);
+               font-size: 1.4rem;
+               font-weight: bold;
+               width: 20vw;
+               margin-left: 2.5vw;
+               margin-top: 4vh;
+               /* border: 1px solid black; */
+            }
+
+            .project-information-underline{
+               width: 20.5vw;
+               margin-left: 2.5vw;
+               margin-right: 0vw;
+               /* border: 1px solid black; */
+            }
+
+            .project-shortinfo{
+               font-family: 'Poppins', sans-serif;
+               color:rgb(54, 54, 54);
+               width: 23vw;
+               margin-left: 2.5vw;
+               font-size: 0.9rem;
+               /* font-weight:900; */
+               /* border: 1px solid black; */
+            }
+
+            .project-shortinfo-bold{
+               font-family: 'Raleway', sans-serif;
+               color:rgb(54, 54, 54);
+               font-size: 0.9rem;
+            }
+            
+
+            .project-description{
+               background-color: white;
+               margin-top: 0;
+               padding-top: 1.5vh;
+               width: 26vw;
+               height: 50vh;
+               float: right;
+               margin-right: 2.3vw;
+               /* border: 1px solid black; */
+            }
+
+            .project-description-heading{
+               font-family: 'Raleway', sans-serif;
+               color:rgb(54, 54, 54);
+               font-size: 1.4rem;
+               font-weight: bold;
+               width: 20vw;
+               margin-left: 2.5vw;
+               margin-top: 4vh;
+               /* border: 1px solid black; */
+            }
+
+            .project-descri{
+               font-family: 'Poppins', sans-serif;
+               color:rgb(54, 54, 54);
+               margin-left: 2.5vw;
+               font-size: 0.9rem;
+               width: 23vw;
+               /* border: 1px solid black; */
+            }
